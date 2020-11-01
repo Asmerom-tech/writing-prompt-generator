@@ -1,15 +1,15 @@
 //arrays with strings, may move to a db to scale up
 //but for project purposes this will do
 const genre = [
-  'Science Fiction',
-  'Fantasy',
-  'Modern Fantasy',
-  'Action Thriller',
-  'Murder Mystery',
-  'Coming of Age',
-  'Horror',
-  'Surreal',
-  'Romance'
+  'a Science Fiction',
+  'a Fantasy',
+  'a Modern Fantasy',
+  'an Action Thriller',
+  'a Murder Mystery',
+  'a Coming of Age',
+  'a Horror',
+  'a Surreal',
+  'a Romance'
 ];
 const protag = [
   'a down-on-her-luck single mother of two',
@@ -57,7 +57,7 @@ const generatePrompt = () => {
   let randProtag = selectStr(protag);
   let randConflict = selectStr(conflict);
 
-  return `Write a(n) ${randGenre} story where ${randProtag} struggles with ${randConflict}.`
+  return `Write ${randGenre} story where ${randProtag} struggles with ${randConflict}.`
 };
 
 console.log(generatePrompt());
