@@ -23,7 +23,8 @@ const protag = [
   'a vegan-turned-vampire',
   'a barista from Manhattan',
   'a girl with a map',
-  'an assassin who is very good at her job'
+  'an assassin who is very good at her job',
+  'a deaf cat who can read'
 ];
 const conflict = [
   'an incompetent boss',
@@ -36,7 +37,10 @@ const conflict = [
   'someone quirky',
   'vampire politics',
   'an incredibly attractive werewolf',
-  'crossing state lines'
+  'crossing state lines',
+  'cultivating the perfect playlist',
+  'a dog that can talk',
+  'cross-contamination'
 ];
 
 //random selection
