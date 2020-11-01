@@ -1,5 +1,4 @@
-//arrays with strings, may move to a db to scale up
-//but for project purposes this will do
+//arrays with strings for generator to select from
 const genre = [
   'a Science Fiction',
   'a Fantasy',
@@ -59,5 +58,9 @@ const generatePrompt = () => {
 
   return `Write ${randGenre} story where ${randProtag} struggles with ${randConflict}.`
 };
+
+//display a generated prompt in prompt div
+
+//event listener for button
 
 console.log(generatePrompt());
