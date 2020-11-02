@@ -1,6 +1,8 @@
 # Writing Prompt Generator
 Sometimes the hardest part of writing is deciding what to write. This is a random writing prompt generator that selects a genre, protagonist description, and a conflict for you, so you can get right to the good stuff!
 
+Live preview: https://orngepeel.github.io/writing-prompt-generator/
+
 ## Technologies
 * JavaScript
 * NodeJS
