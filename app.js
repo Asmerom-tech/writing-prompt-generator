@@ -59,8 +59,18 @@ const generatePrompt = () => {
   return `Write ${randGenre} story where ${randProtag} struggles with ${randConflict}.`
 };
 
-//display a generated prompt in prompt div
+//event handler
+const displayPrompt = () => {
+  document.getElementById('prompt').innerHTML = generatePrompt();
+};
 
-//event listener for button
+//event listener for clicking button
+document.getElementById('button').addEventListener('click', displayPrompt);
+//event listener to allow spacebar to generate prompt
+window.addEventListener('keydown', function(e) {
+  if (e.keyCode == 32) {
+    displayPrompt();
+  };
+});
 
 console.log(generatePrompt());
