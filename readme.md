@@ -14,3 +14,9 @@ Sometimes the hardest part of writing is deciding what to write. This is a rando
 * "Write a Science Fiction story where a sentient pile of spaghetti struggles with what to have for dinner."
 * "Write a Romance story where an assassin who is very good at her job struggles with a man who is crying."
 * "Write a Fantasy story where a down-on-her-luck single mother of two struggles with the epic highs and lows of high school football."
+
+## Note
+This project was created for the Codecademy "Mixed Messages" portfolio project.
+
+## Status
+This project is complete.
